@@ -13,11 +13,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          search-paths: respo
-          username: 123
-          password: 123
-      label: master
+          uri: https://github.com/PeterWakeUP/client-my-cofig
+          #search-paths: respo1,respo2
+          #username: 123
+          #password: 123
+      #label: master
 
 
 

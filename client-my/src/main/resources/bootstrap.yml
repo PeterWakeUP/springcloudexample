@@ -11,8 +11,9 @@ spring:
     name: client-my
   cloud:
     config:
-      label: master
+      #label: master
       profile: dev
+      fail-fast: true #是否启动快速失败功能，功能开启则优先判断config server是否正常
       discovery:
         enabled: true
         service-id: config-server

@@ -15,11 +15,15 @@ public class ClientMyApplication {
     }
 
 
-    @Value("${foo}")
-    String foo;
+    @Value("${app.environment}")
+    String environment;
+
+    @Value("${my.name}")
+    String name;
+
     @RequestMapping(value = "/hi")
     public String hi(){
-        return foo;
+        return environment + "," +name;
     }
 
 }
