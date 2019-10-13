@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/client-my/pom.xml" />
+        <option value="$PROJECT_DIR$/client-your/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

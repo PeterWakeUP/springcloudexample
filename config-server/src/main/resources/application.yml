@@ -13,10 +13,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/PeterWakeUP/client-my-cofig
+          uri: https://git.lug.ustc.edu.cn/config/client-my-config.git
           #search-paths: respo1,respo2
-          #username: 123
-          #password: 123
+          #username: *****@****.com    #如果是private的仓库，则需要用户名和密码
+          #password: ****
       #label: master
 
 
