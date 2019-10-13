@@ -17,12 +17,12 @@ public class ClientYourApplication {
     @Value("${app.environment}")
     String environment;
 
-    @Value("${my.name}")
-    String name;
+    @Value("${my.version}")
+    String version;
 
     @RequestMapping(value = "/hi")
     public String hi(){
-        return environment + "," +name;
+        return environment + "," +version;
     }
 
 }
