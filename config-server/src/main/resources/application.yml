@@ -14,19 +14,19 @@ spring:
       enabled: true
       server:
         git:
-          uri: https://git.lug.ustc.edu.cn/config.git
-          search-paths: '{application}'
+          uri: https://git.lug.ustc.edu.cn/config/{application}-config.git
+          search-paths: application
           #search-paths: respo1,respo2
-          #username: *****@****.com    #如果是private的仓库，则需要用户名和密码
+          #username: ****@****.com    #如果是private的仓库，则需要用户名和密码
           #password: ****
           # 强制获取覆盖
-          force-pull: true
+          #force-pull: true
           # 不对服务器SSL 证书进行验证
-          skip-ssl-validation: true
+          #skip-ssl-validation: true
           #设置超时时间是4秒
-          timeout: 4
+          #timeout: 4
           # 删除存储库中未跟踪的分支
-          delete-untracked-branches: true
+          #delete-untracked-branches: true
       #label: master
 
 management:
