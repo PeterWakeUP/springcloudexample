@@ -11,7 +11,8 @@
     <modules>
         <module>eureka-server</module>
         <module>config-server</module>
-        <module>cloud-client</module>
+        <module>client-my</module>
+        <module>client-your</module>
     </modules>
 
 
